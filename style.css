@@ -1,0 +1,415 @@
+header {
+ font-family: Georgia, serif;
+ font-weight: bold condensed;
+ color: #40E6B1; 
+ font-size: 25px;
+ padding:20px;
+ background-color: #536480;
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	color: #544A4A;
+	font-size: 16px;
+	padding:4px;
+	background-color: #536480;
+}
+
+h1{
+	font-family: Georgia, serif;
+	font-weight: bold;
+	color: #e4dfed;
+	font-size: 20px;
+	padding:10px;
+	background-color: #536480;
+}
+
+li{
+  text-align: center;
+  font-size: 18px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+video {
+ 	/* add your style definitions here */
+	border-style: solid;
+	padding:4px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+ 	/* transitions applied to the video element */
+ 	-moz-transition: all 1s ease-in-out;
+ 	-webkit-transition: all 1s ease-in-out;
+ 	-o-transition: all 1s ease-in-out;
+ 	-ms-transition: all 1s ease-in-out;
+ 	transition: all 1s ease-in-out;
+}
+
+audio {
+	border-style: solid;
+	padding:4px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+button.home{
+ /*These lines override the previous styling of buttons*/
+border-image: url("homeButton.png");
+background: url("homeButton.png");
+background-size: cover;
+width:60px;
+height: 60px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+left:16px;
+top:8px; }
+
+button.profile{
+ /*These lines override the previous styling of buttons*/
+border-image: url("profileButton.png");
+background: url("profileButton.png");
+background-size: cover;
+width:60px;
+height: 60px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+right:16px;
+top:8px; }
+
+button.next{
+ /*These lines override the previous styling of buttons*/
+border-image: url("nextButton.png");
+background: url("nextButton.png");
+background-size: cover;
+width:60px;
+height: 60px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+right:16px;
+top:168px; }
+
+button.back{
+ /*These lines override the previous styling of buttons*/
+border-image: url("backButton.png");
+background: url("backButton.png");
+background-size: cover;
+width:60px;
+height: 60px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+left:16px;
+top:168px; }
+
+button.back2{
+ /*These lines override the previous styling of buttons*/
+border-image: url("blueButton.png");
+background: url("blueButton.png");
+background-size: cover;
+width:60px;
+height: 30px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+left:16px;
+top:68px; }
+
+button.game1{
+ /*These lines override the previous styling of buttons*/
+border-image: url("blueSquare2.png");
+background: url("blueSquare2.png");
+background-size: cover;
+width:90px;
+height: 90px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+left:76px;
+top:128px; }
+
+button.game2{
+ /*These lines override the previous styling of buttons*/
+border-image: url("blueSquare2.png");
+background: url("blueSquare2.png");
+background-size: cover;
+width:90px;
+height: 90px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+right:76px;
+top:128px; }
+
+button.game3{
+ /*These lines override the previous styling of buttons*/
+border-image: url("blueSquare2.png");
+background: url("blueSquare2.png");
+background-size: cover;
+width:90px;
+height: 90px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+left:76px;
+top:208px; }
+
+button.game4{
+ /*These lines override the previous styling of buttons*/
+border-image: url("blueSquare2.png");
+background: url("blueSquare2.png");
+background-size: cover;
+width:90px;
+height: 90px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+right:76px;
+top:208px; }
+
+button.play{
+ /*These lines override the previous styling of buttons*/
+border-image: url("playButton.png");
+background: url("playButton.png");
+background-size: cover;
+width:50px;
+height: 50px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+right:76px;
+top:308px; }
+
+button.stop{
+ /*These lines override the previous styling of buttons*/
+border-image: url("stopButton.png");
+background: url("stopButton.png");
+background-size: cover;
+width:50px;
+height: 50px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+left:76px;
+top:308px; }
+
+button.bigButtonLeft{
+ /*These lines override the previous styling of buttons*/
+border-image: url("greyButton2.png");
+background: url("greyButton2.png");
+background-size: cover;
+width:120px;
+height: 60px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+left:16px;
+top:158px; }
+
+button.bigButton{
+ /*These lines override the previous styling of buttons*/
+border-image: url("greyButton2.png");
+background: url("greyButton2.png");
+background-size: cover;
+width:120px;
+height: 60px;
+ 
+/*These lines position the back button inside the header*/
+style="text-align:center;"
+top:138px; }
+
+button.bigButtonRight{
+ /*These lines override the previous styling of buttons*/
+border-image: url("greyButton2.png");
+background: url("greyButton2.png");
+background-size: cover;
+width:120px;
+height: 60px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+right:16px;
+top:158px; }
+
+button {
+ /*center the button*/
+display: block;
+margin-left: auto;
+margin-right: auto;
+ 
+/* add your code to set top and bottom margins */
+ 
+/*add an image to your button*/
+border-image: url("blueButton.png");
+background: url("blueButton.png");
+background-size: cover;
+
+/*set width and height for the button*/
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+input[type=save] {
+  width: 100%;
+  background-color: #40E6B1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+input[type=save]:hover {
+  background-color: #3BC498;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #536480;
+  padding: 10px;
+  padding-top: 10px;
+  color: #000000;
+}
+.header{
+  border-radius: 5px;
+  background-color: #536480;
+  padding: 10px;
+  padding-top: 20px;
+  color: #000000;
+}
+.container {
+  border-radius: 5px;
+  background-color: #536480;
+  padding: 2px;
+  padding-top: 2px;
+  color: #000000;
+}
+
+.slidecontainer {
+  width: 100%;
+  padding: 1px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  padding: 2px;
+}
+
+
+#content {
+    padding:3px;
+}
+
+#WPI{
+    /*center the image*/
+    display: block; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#MOOD{
+    /*center the image*/
+    display: block; 
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main_nav ul { padding: 0; margin: 0; }
+
+#main_nav li  {
+  list-style-type: none; /* remove bullet points */ 
+}
+
+#main_nav li a {
+   display: block;
+   text-decoration: none; /* remove underline */
+   border-radius: 10px;  /* rounded corners */
+   margin: 6px;
+   padding: 9px;
+   color: #222;
+   font-weight: bold;
+
+   /* nice gradient shade on the buttons */
+   background-color: white;
+
+   border: 1px solid #666; /* dark outline */
+}
+
+nav li:active {
+  background-color: #ccc;
+  background-image: none;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+}
+
+footer{
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: #3E8043;
+	font-size: 16px
+	padding:4px;
+}

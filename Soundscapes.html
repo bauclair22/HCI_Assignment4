@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> TAKE A BREAK SOUNDSCAPES </title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+
+<header style="text-align:center;"> Take a Break</header>
+<button class="home" onClick="location.href='Home.html';"></button>
+<button class="profile" onClick="location.href='Profile.html';"></button>
+<button class="back2" onClick="location.href='Music.html';">Back</button>
+
+<div class= "header">
+  <form action="/action_page.php">
+    <label for="soundscapes">Soundscapes</label>
+    <select id="soundscapes" name="soundscapes">
+      <option value="garden">Garden</option>
+      <option value="beach">Beach</option>
+      <option value="forest">Forest</option>
+    </select>
+  </form>
+</div>
+
+<div class="container">
+  <div class="range-slider">
+  <div class="tooltip">Birds</div>
+    <input type="range" min="0" max="100"/>
+    <div class="range-slider__bar"></div>
+    <div class="range-slider__thumb"></div>
+  </div>
+  <div class="range-slider">
+  <div class="tooltip">Chimes</div>
+    <input type="range" min="0" max="100" />
+    <div class="range-slider__bar"></div>
+    <div class="range-slider__thumb"></div>
+  </div>
+  <div class="range-slider">
+  <div class="tooltip">Rain</div>
+    <input type="range" min="0" max="100" />
+    <div class="range-slider__bar"></div>
+    <div class="range-slider__thumb"></div>
+  </div>
+  <div class="range-slider">
+  <div class="tooltip">Wind</div>
+    <input type="range"  min="0" max="100" />
+    <div class="range-slider__bar"></div>
+    <div class="range-slider__thumb"></div>
+  </div>
+  <div class="range-slider">
+  <div class="tooltip">Birds2</div>
+    <input type="range"min="0" max="100" />
+    <div class="range-slider__bar"></div>
+    <div class="range-slider__thumb"></div>
+  </div>
+</div>
+
+<body>
+</html>

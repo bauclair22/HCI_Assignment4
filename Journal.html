@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+
+<header style="text-align:center;"> Take a Break</header>
+<button class="home" onClick="location.href='Home.html';"></button>
+<button class="profile" onClick="location.href='Profile.html';"></button>
+
+<div>
+    <label for="promt">Optional Prompt</label>
+    <select id="prompt" name="prompt">
+      <option value="prompt1">Things you have control of in your life.</option>
+    </select>
+</div>
+
+<form action="/action_page.php">
+  <p><label for="message" style="color:#000000;">Your entry:</label></p>
+  <textarea id="message" name="message" rows="20" cols="45"></textarea>
+  <br>
+  <input type="save" value="Save">
+</form>
+</html>
